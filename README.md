@@ -5,6 +5,17 @@ This is a simple theme for jenkins using the "simple-theme-plugin"
 
 A demo can be seen here: http://jqa.me:8080/
 
+
+Integration in nginx (example)
+==============================
+
+```
+  location /jenkins-clean-theme {
+    alias /var/www/html/jenkins-clean-theme;
+  }
+```
+
+
 Dependencies
 =================
 
